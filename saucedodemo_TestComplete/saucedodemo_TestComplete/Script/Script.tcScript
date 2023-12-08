@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="stark" key="{53AD2472-3960-4DF8-A720-AAE9B5D07815}" path="stark.js" />
+		<child name="login" key="{40E58B64-95E4-4DB2-A3D2-BB3C25B2F47A}" path="login.js" />
+		<child name="buy" key="{623C493C-4165-4A93-BC19-44629BC03F25}" path="buy.js" />
+		<child name="logout" key="{FE3EC8BB-090E-463B-B45D-B4D840EE1C52}" path="logout.js" />
+		<child name="purchase_data" key="{87E6E539-18C3-4CF4-B6FF-202A99ABD16F}" path="purchase_data.js" />
+		<child name="alerta" key="{E8E57F58-B9D5-4AF0-BB94-D4065663428A}" path="alerta.js" />
+	</children>
+</Root>

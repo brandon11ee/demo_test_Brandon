@@ -1,0 +1,15 @@
+﻿function HandleAlert() {
+  
+  var page = Sys.Browser("*").Page("*");
+  page.Wait();
+
+  var alert = Sys.WaitWindow("Alerta"); // espera por la ventana
+  
+  if (alert) {
+    Log.Message(alert.Wnd.Text); // loggea texto
+
+    alert.Wnd.OKButton.Click(); // click en OK  
+
+  }
+
+}
