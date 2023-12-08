@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="15.0" key="{A1E2D604-A1C9-41AB-AC07-AE7794D23D5F}">
+	<children>
+		<child name="saucedo_TestComplete" key="{D0D124E2-74DD-421C-B2E0-4BAA8B113769}" path="saucedodemo_TestComplete\saucedo_TestComplete.mds" />
+	</children>
+	<testItems key="{C6E10D9F-EE02-4631-B3B4-0CC8B44A09D1}">
+		<children>
+			<testItem key="{D0D124E2-74DD-421C-B2E0-4BAA8B113769}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{43D085EA-C427-4467-8B13-7DDA9CDF0576}" />
+	<analysis key="{AD13E482-2908-4E0C-94CD-A150462BA81F}" />
+	<scc key="{C900492B-D218-429C-9AA0-264B7D78CA88}" name="Git Plugin">
+		<data />
+	</scc>
+</Root>
