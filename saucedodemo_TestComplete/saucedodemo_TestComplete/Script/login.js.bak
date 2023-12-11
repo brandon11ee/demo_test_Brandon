@@ -50,7 +50,7 @@
     Log.Error("you did not click the login button correctly")
   }
   
-     Log.Message("Alert text: " + page.Alert.Message);
-      page.Alert.Button("Aceptar").Click();
-  
+    Log.Message("Alert text: " + page.Alert.Message);
+   page.Alert.Button("OK").Click();
+     
   }
