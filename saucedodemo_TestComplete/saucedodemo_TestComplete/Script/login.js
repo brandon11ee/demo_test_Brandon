@@ -49,8 +49,8 @@
   }else{
     Log.Error("you did not click the login button correctly")
   }
-  
-     Log.Message("Alert text: " + page.Alert.Message);
-      page.Alert.Button("OK").Click();
-  
+  aqUtils.Delay(1000)
+    Log.Message("Alert text: " + page.Alert.Message);
+   page.Alert.Button("OK").Click();
+     
   }

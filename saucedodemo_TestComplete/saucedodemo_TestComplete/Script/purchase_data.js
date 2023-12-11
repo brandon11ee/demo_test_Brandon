@@ -60,8 +60,8 @@
     Log.Checkpoint("i entered the middle name correctly")
   }else{
     Log.Error("i did not enter the middle name correctly")
-  }
-  
+    }
+    
   //zip code 
   
   do{
@@ -78,7 +78,7 @@
   
   // button continue 
   do{
-    var button_continue = page.WaitElement("//input[@id='continue']")
+    var button_continue = page.WaitElement("//input[@id='continue']", 5000)
     min++
   }while(button_continue==null && min>=5)
   
@@ -92,12 +92,13 @@
   // button finished 
   
   do{
-    var button_finished = page.WaitElement("//button[@id='finish']")
+    var btton_finished = page.WaitElement("//button[@id='finish']", 5000)
     min++
-  }while(button_finished==null && min>=5)
+  }while(btton_finished==null && min>=5)
   
-  if(button_finished.Exists){
-    button_finished.Click()
+  if(btton_finished.Exists){
+    
+    btton_finished.Click()
     Log.Checkpoint("clicked on the finishied button")
   }else{
     Log.Error("did not click on the finished button")

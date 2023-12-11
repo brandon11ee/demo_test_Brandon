@@ -1,13 +1,15 @@
 ﻿function logout()
 {
    //Inicializacion de la variable page, para buscar los elementos del URL obtenido
-  var page = Sys.Browser("*").Page("*");
+  var page = Sys.Browser("chrome").Page("*");
   page.Wait();
   
+  //contador 
+   var min = 0 
   //options
   
   do{
-    var field_option = page.WaitElement("//button[@id='react-burger-menu-btn']")
+    var field_option = page.WaitElement("//div[button[@id='react-burger-menu-btn']]")
     min++
   }while(field_option==null && min>=5)
   
@@ -16,6 +18,20 @@
     Log.Checkpoint("clicked field_options button")
   }else{
     Log.Error("i did on the clicked field_option button")
+  }
+  
+  //Reset
+  
+  do{
+    var reset_app = page.WaitElement("//a[@id='reset_sidebar_link']")
+    min++
+  }while(reset_app==null && min>=5)
+  
+  if(reset_app.Exists){
+    reset_app.Click()
+    Log.Checkpoint("clicked in button reset")
+  }else{
+    Log.Error("not did clicked in button reset")
   }
   
   //logout

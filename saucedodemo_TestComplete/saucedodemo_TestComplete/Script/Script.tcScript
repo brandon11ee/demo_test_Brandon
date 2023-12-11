@@ -6,6 +6,5 @@
 		<child name="buy" key="{623C493C-4165-4A93-BC19-44629BC03F25}" path="buy.js" />
 		<child name="logout" key="{FE3EC8BB-090E-463B-B45D-B4D840EE1C52}" path="logout.js" />
 		<child name="purchase_data" key="{87E6E539-18C3-4CF4-B6FF-202A99ABD16F}" path="purchase_data.js" />
-		<child name="alerta" key="{E8E57F58-B9D5-4AF0-BB94-D4065663428A}" path="alerta.js" />
 	</children>
 </Root>
