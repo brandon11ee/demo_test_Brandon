@@ -1,0 +1,3 @@
+[submodule "saucedodemo_selenium/Saudemo-Testing"]
+	path = saucedodemo_selenium/Saudemo-Testing
+	url = https://github.com/Itsscoconut/Saudemo-Testing.git
